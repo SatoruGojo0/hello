@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+
+
+       <form action="/send-me">
+
+        <label for="userName">User Name:</label>
+        <input type="text" id="userName" placeholder="name"><br>
+
+        <label for="userPassword">User Password:</label>
+        <input type="password" id="userPassword" placeholder="password" required><br>
+
+        <input type="submit"><br>
+
+        <input type="text" name="userName" value="Chayan"><hr>
+
+ 
+       <label for="start">Start date:</label>
+
+<input
+  type="date"
+  id="start"
+  name="trip-start"
+  value="2018-07-22"
+  min="2018-01-01"
+  max="2019-12-31" 
+  pattern="/d{4}-/d{2}-/d{2}"/> <br>
+
+
+  File : <input type="file"> <br>
+  Color : <input type="color"><br>
+  Range : <input type="range"><br>
+  Send Me : <input type="button" value="send me"><br>
+  Submit : <input type="submit"><hr>
+
+
+<label for="1">Male</label>
+<input id="1" type="radio" name="gender" value="male"><br>
+<label for="2">Female</label>
+<input id="2" type="radio" name="gender" value="female"><br>
+<label for="3">Other</label>
+<input id="3" type="radio" name="gender" value="other"><hr>
+
+
+
+<table border="1">
+     
+    <tr><td><label for="10">Red</label>
+<input id="10" type="checkbox" name="color" value="red"><br></td></tr>
+
+<tr><td><label for="20">Green</label>
+<input id="20" type="checkbox" name="color" value="green"><br></td></tr>
+
+<tr><td><label for="110">Yellow</label>
+<input id="110" type="checkbox" name="color" value="yellow"><br></td></tr>
+
+</table><hr>
+
+
+<label for="cuntry">Please select your cuntry : </label>
+<select name="cuntry" id="25">
+
+<option value="india">India</option>
+<option value="us">US</option>
+<option value="uk">UK</option>
+</select><hr><hr>
+
+
+
+
+<textarea name="" id="comments" cols="50" rows="10" ></textarea>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       </form>
+ 
+
+
+
+</body>
+</html>
